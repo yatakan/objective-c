@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA2CE0631F6E7BE200396DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2CE0621F6E7BE200396DCA /* main.m */; };
+		BA71759E1F7460A70020E6EB /* Sankaku.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71759D1F7460A70020E6EB /* Sankaku.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BA2CE05F1F6E7BE200396DCA /* Objective-C--2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C--2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2CE0621F6E7BE200396DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA71759C1F7460A70020E6EB /* Sankaku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sankaku.h; sourceTree = "<group>"; };
+		BA71759D1F7460A70020E6EB /* Sankaku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sankaku.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BA2CE0621F6E7BE200396DCA /* main.m */,
+				BA71759C1F7460A70020E6EB /* Sankaku.h */,
+				BA71759D1F7460A70020E6EB /* Sankaku.m */,
 			);
 			path = "Objective-C--2";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA71759E1F7460A70020E6EB /* Sankaku.m in Sources */,
 				BA2CE0631F6E7BE200396DCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 				BA2CE0681F6E7BE200396DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

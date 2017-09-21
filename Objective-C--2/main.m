@@ -1,17 +1,14 @@
-//
-//  main.m
-//  Objective-C--2
-//
-//  Created by taka on 2017/09/17.
-//  Copyright © 2017年 takayan. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#import "Sankaku.h"
 
-int main(int argc, const char * argv[]) {
+int main (int argc, const char * argv[])
+{
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Sankaku *sankaku_A = [[Sankaku alloc] init];
+        
+        sankaku_A.teihen = 6;
+        sankaku_A.takasa = 4;
+        
+        NSLog(@"%d,%d", sankaku_A.teihen, sankaku_A.takasa);
     }
-    return 0;
 }
